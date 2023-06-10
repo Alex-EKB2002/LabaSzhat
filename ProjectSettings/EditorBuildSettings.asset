@@ -40,19 +40,19 @@ EditorBuildSettings:
     guid: d3728de6b37bf354bae05c05734db925
   - enabled: 1
     path: Assets/Scenes/12CementDo.unity
-    guid: e5349a328d6d5f34889d9a949b12c715
+    guid: 835a160d0f018a941a56ce31bd4d8d7c
   - enabled: 1
     path: Assets/Scenes/13CementPosle.unity
     guid: 1e8316bd19182a446a7ea5e437ce1272
   - enabled: 1
     path: Assets/Scenes/14DerevoVdolDo.unity
-    guid: 9bc6f1dd1a7f2c34fac2332dce3c6f4a
+    guid: a16ca8328dbdcef4b9cb1b237d8d1bca
   - enabled: 1
     path: Assets/Scenes/15DerevoVdolPosle.unity
     guid: 15faaf8108b16ec4da84ef5b0ea24b22
   - enabled: 1
     path: Assets/Scenes/16DerevoPoperekDo.unity
-    guid: fa0c6e0354613364bad247e6d48f6c2c
+    guid: 0b4b479971fcb9f43a682044ae27feb1
   - enabled: 1
     path: Assets/Scenes/17DerevoPoperekPosle.unity
     guid: 11aac70a14bf26c43851413d15174149

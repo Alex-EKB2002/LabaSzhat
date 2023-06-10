@@ -22,6 +22,7 @@ public class Measurement : MonoBehaviour
         k = UnityEngine.Random.Range(0.95f, 1.05f);
         A = float.Parse(PlayerPrefs.GetString("a1"));
         F = A * q * k;
+        
     }
 
     // Update is called once per frame
@@ -37,15 +38,15 @@ public class Measurement : MonoBehaviour
             if (result < F)
             {
                 result += Math.Round(F/12, 2);
-                textToEdit.text = result.ToString();
+                textToEdit.text = Convert.ToInt32(result).ToString() + " Í";
             }
             else
             {
                 result = Math.Round(F, 2);
-                PlayerPrefs.SetString("f1", result.ToString());
+                
             }
-            
-            
+
+            PlayerPrefs.SetString("f1", Convert.ToInt32(result).ToString());
             yield return new WaitForSeconds(1);
         }
     }

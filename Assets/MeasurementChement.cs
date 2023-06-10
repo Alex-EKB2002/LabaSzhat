@@ -35,15 +35,15 @@ public class MeasurementChement : MonoBehaviour
             if (result < F)
             {
                 result += Math.Round(F/12, 2);
-                textToEdit.text = result.ToString();
+                textToEdit.text = Convert.ToInt32(result).ToString() + " Í";
             }
             else
             {
                 result = Math.Round(F, 2);
-                PlayerPrefs.SetString("f2", result.ToString());
+                
             }
-            
-            
+
+            PlayerPrefs.SetString("f2", Convert.ToInt32(result).ToString());
             yield return new WaitForSeconds(1);
         }
     }

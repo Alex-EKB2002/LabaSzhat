@@ -22,9 +22,11 @@ public class WhatsNext : MonoBehaviour
     public Text P2Zam;
     public Text P3Zam;
     public Text P4Zam;
+    
 
     void Update()
     {
+       
         d1Zam.text = PlayerPrefs.GetString("d1");
 
         h1Zam.text = PlayerPrefs.GetString("h1");
@@ -37,10 +39,10 @@ public class WhatsNext : MonoBehaviour
         a3Zam.text = PlayerPrefs.GetString("a3");
         a4Zam.text = PlayerPrefs.GetString("a4");
 
-        P1Zam.text = PlayerPrefs.GetString("p1");
-        P2Zam.text = PlayerPrefs.GetString("p2");
-        P3Zam.text = PlayerPrefs.GetString("p3");
-        P4Zam.text = PlayerPrefs.GetString("p4");
+        P1Zam.text = PlayerPrefs.GetString("f1");
+        P2Zam.text = PlayerPrefs.GetString("f2");
+        P3Zam.text = PlayerPrefs.GetString("f3");
+        P4Zam.text = PlayerPrefs.GetString("f4");
 
 
 
